@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Inicio</title>
+     <link rel="stylesheet" href="master.css">
+     <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+     >
+     <link rel="stylesheet" href="font.css">
+     <link rel="stylesheet" href="main.css">
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script src="jquery.vide.js"></script>
+</head>
+     <!--Menú Web-->
+<body>
+              <div class="wrapper">
+            <header>
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              HJRT
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="Pre-Loader.html">Acerca De Mi</a></li>
+                                    <li><a href="#">Mis Servicios</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+      </div>
+
+     
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+      </script>              
+        
+           
+<div class="Social-Bar">
+    <a href="https://www.facebook.com/HectorTovarDJProducer" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/HectorrTovar" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.instagram.com/rodtovmx/" class="icon icon-instagram" target="_blank"></a>
+</div>           
+
+           </body>
+            
+
+<body data-vide-bg="InsidiOS">
+     <h1>Héctor Rodríguez</h1>
+     <h2>Diseñador | Desarrollador | Productor</h2>
+     <!--Canción con mini reproductor-->
+     <embed src="chasing%20nothing.mp3" autostarty="true" loop="10" volume="-20" width="0" height="0"> 
+</body>
+
+<footer>
+ Creada por Héctor Rodríguez & Música por Benhurzz - Chasing Nothing   
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
+
